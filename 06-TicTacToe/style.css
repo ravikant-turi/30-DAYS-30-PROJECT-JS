@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.play-Bord{
+
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 2px;
+
+border: 2px solid black;
+max-width: 90%;
+width:200px;
+height: 200px;
+
+   
+}
+.btn{
+    font-size: 45px;
+    height: 60px;
+    width: 60px;
+
+}
+/* .div1{
+    animation: spin 1s infinite ease-out;
+
+  
+} */
+.hilight{
+    border: 2px solid red;
+}
+.notHilight{
+    border: 2px solid green;
+}
+@keyframes spin {
+    0% {
+        transform: translate(50%, 50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(50%, 50%) rotate(180deg);
+    }
+    100% {
+        transform: translate(50%, 50%) rotate(360deg);
+    }
+}

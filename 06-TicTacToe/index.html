@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+       
+        <h1>Tic Tak Toe</h1>
+
+        <p style="font-size: 32px;">turn is :  <h1 class="turn">o</h1></p>
+        <div class="play-Bord">
+            <div><button onclick="change(event,this.id)" class="btn"  id="btn1"></button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn2"></button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn3">o</button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn4">x</button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn5">x</button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn6">x</button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn7">o</button></div>
+            <div><button onclick="change(event,this.id)"  class="btn" id="btn8">x</button></div>
+            <div><button onclick="change(event,this.id)"  class="btn"  id="btn9">o</button></div>
+        </div>
+        <h1 class="winner">winner is: </h1>
+    </div>
+        <script src="app.js"></script>
+</body>
+</html>
