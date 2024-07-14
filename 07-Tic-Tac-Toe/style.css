@@ -24,3 +24,6 @@
 .row{
     display: flex;
 }
+.winner{
+    font-size: 35px;
+}
