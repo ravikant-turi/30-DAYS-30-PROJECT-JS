@@ -59,7 +59,7 @@ function applyData(data) {
     // });
 
 
-    data.socialLink.map((nextlink, index) => {
+    data.socialLink.map((nextlink) => {
         // Create the anchor element
         const link = document.createElement('a');
         link.className = 'linkdin link-div';
