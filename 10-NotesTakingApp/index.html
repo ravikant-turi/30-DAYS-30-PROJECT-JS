@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <section class="main">
+
+        <div class="mainCard">
+
+            <!-- 
+                <div class="noteCard card hideElement">
+                    
+                    
+                    
+                    <h1 class="note">Learn Js</h1>
+                    
+                    <button class="closebutton" onclick="removeNote()">X</button>
+                    
+                </div> -->
+                
+            </div>
+
+      <div class="addCard card">
+
+        <button class="addButton" onclick="addNote()">+</button>
+
+      </div>
+
+      <div class="card addCardForm hideElement">
+
+       <form onsubmit="submitNote(event)">
+
+        <textarea name="" id="noteText" rows="12" cols="35" maxlength="110"></textarea>
+
+        <button type="submit" class="submitButton">save</button>
+       </form>
+
+      </div>
+
+    
+
+
+
+
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

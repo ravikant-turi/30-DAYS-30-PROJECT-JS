@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  padding: 5px;
+  border-radius: 5%;
+  border: 1.2px solid rgb(224, 203, 203);
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 15px;
+}
+.note {
+  color: white;
+}
+.closebutton {
+    color: white;
+    height: 30px;
+    width: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    border:none;
+    position: absolute;
+    top: 0.2px;
+    right: 0;
+}
+.addButton{
+    color: white;
+    height: 30px;
+    width: 50px;
+    font-weight: 400;
+    font-size: 55px;
+    border:none;
+}
+textarea:focus{
+   border: none;
+   outline: none;
+   border-radius: 5%;
+   color: white;
+}
+.submitButton{
+    
+   font-size: 20px;
+  padding: 4px;
+   color: white;
+  border-radius: 15%;
+   border: 0.6px solid white;
+   
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+
+}
+
+.hideElement{
+    display: none;
+}
+
+.mainCard{
+    display: flex;
+}
