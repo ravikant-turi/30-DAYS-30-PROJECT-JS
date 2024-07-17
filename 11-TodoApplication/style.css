@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 450px;
+    margin: 39px;
+    border: 2px solid green;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.todoBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.todo{
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    margin-top: 10px;
+    height: 40px;
+}
+.btn{
+      border-radius: 15%;
+      color: white;
+}
+.delete{
+    background-color: red;
+}
+.update{
+    background-color: green;
+}
+.form{
+  
+    margin-top: 10px; 
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}

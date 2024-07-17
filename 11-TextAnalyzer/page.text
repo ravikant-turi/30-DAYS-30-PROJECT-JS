@@ -1,0 +1,9 @@
+// text analyzer app
+
+GOAL : FIRST OF ALL WE WILL TAKE THE INPUT AS STRING AND WE WILL PERFORM ALL THE OPERATION
+
+OPERATION
+  1.count total number of words
+  2.count total number of  vowel,consonent,letter,digit,special Chareter
+  3.calculate total number of length
+  4.

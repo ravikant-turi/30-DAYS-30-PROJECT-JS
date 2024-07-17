@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>
+
+    <section class="main">
+        <h1 class="todoname">Todo App</h1>
+        <div class="todoBox">
+
+        </div>
+        <div class="todo">
+            <p class="todoContent">1.dsa</p>
+            <button class="btn delete" onclick="deleteTodo(event)">Delete</button>
+            <button class="btn update" onclick="updateTodo(event)">update</button>
+        </div>
+        <form class="form" onsubmit="addTodo(event)">
+            <textarea  id="input" >hii</textarea>
+            <button>Save</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
