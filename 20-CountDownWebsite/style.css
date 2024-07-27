@@ -12,8 +12,20 @@
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background-color: #B9D9EB;
+    background-color: #3f647a;
 }
+.countdown{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 p{
   
     font-family:"Margarine", sans-serif;
@@ -27,4 +39,7 @@ h1{
     font-weight: 400;
     font-size:4rem;
     font-style: normal;
+}
+.hidden{
+    display: none;
 }
