@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Movie Search Website</title>
-</head>
-<body>
-   
-    
+  </head>
+  <body>
+    <section class="heroSection">
+        <div>
+            <h1>MoviePedia</h1>
+            <p>A place to Search your favourite movie</p>
+            <form action="">
+                <input type="text" id="userInput" required />
+                <button id="movieSearchbtn">Search</button>
+            </form>
+        </div>
+    </section>
 
+    <section class="detialSection">
     
+        <div class="detailsDiv">
+          <h1 id="movieName">Name</h1>
+          <p id="movieDescription">Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Accusamus delectus aliquam ratione atque 
+             </p>
+          <p id="releaseDate">Release Date</p>
+          <p id="director">Director</p>
+          <p id="generate">Generate</p>
+        </div>
+        <div class="imgdiv">
+            <img id="moviePoster" src="img.png" alt="">
+        </div>
+    
+    </section>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
